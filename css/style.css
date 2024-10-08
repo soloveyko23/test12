@@ -412,3 +412,8 @@ h6 {
     }
   }
 }
+@media (max-height:800px) {
+  .hero__title h2 {
+    font-size: min(14.8vmin,25vmax)
+  }
+}
