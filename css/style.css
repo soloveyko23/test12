@@ -272,7 +272,7 @@ h6 {
   letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: min(1vmin,3vmax)
+  margin-bottom: min(.7vmin,2vmax)
 }
 .hero__button {
   display: flex;
@@ -295,7 +295,7 @@ h6 {
   font-family: BonnetGrotesqueNr;
   font-size: min(15.8vmin,25vmax);
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1;
   text-align: center;
   text-transform: uppercase;
   -webkit-text-stroke: 2px #fff;
@@ -413,6 +413,9 @@ h6 {
   }
 }
 @media (max-height:800px) {
+  .hero__title h1 {
+    font-size: min(15.75vmin,25vmax)
+  }
   .hero__title h2 {
     font-size: min(14.8vmin,25vmax)
   }
